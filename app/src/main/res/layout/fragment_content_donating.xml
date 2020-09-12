@@ -70,12 +70,13 @@
             </com.progtech.donatingsvk.views.InputFieldView>
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/buttonGoAdditional"
                 style="@style/VKButton"
                 android:layout_width="match_parent"
                 android:layout_height="44dp"
                 android:layout_margin="16dp"
-                android:text="Далее" />
+                android:text="Далее"
+                android:onClick="onClick"/>
 
         </LinearLayout>
     </ScrollView>

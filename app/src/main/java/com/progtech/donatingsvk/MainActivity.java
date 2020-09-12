@@ -8,6 +8,7 @@ import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
 import android.view.View;
 
+import com.progtech.donatingsvk.fragments.AdditionalContentDonatingFragment;
 import com.progtech.donatingsvk.fragments.ChooseDonatingTypeFragment;
 import com.progtech.donatingsvk.fragments.ContentDonatingFragment;
 import com.progtech.donatingsvk.fragments.CreateDonatingFragment;
@@ -42,6 +43,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.buttonTargetDonating:
                 replaceFragment(new ContentDonatingFragment());
+                break;
+            case R.id.buttonGoAdditional:
+                replaceFragment(new AdditionalContentDonatingFragment());
+                break;
         }
     }
 }
