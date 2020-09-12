@@ -12,6 +12,7 @@ import com.progtech.donatingsvk.fragments.AdditionalContentDonatingFragment;
 import com.progtech.donatingsvk.fragments.ChooseDonatingTypeFragment;
 import com.progtech.donatingsvk.fragments.ContentDonatingFragment;
 import com.progtech.donatingsvk.fragments.CreateDonatingFragment;
+import com.progtech.donatingsvk.fragments.SnippetDonatingFragment;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -46,6 +47,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.buttonGoAdditional:
                 replaceFragment(new AdditionalContentDonatingFragment());
+                break;
+            case R.id.buttonGoSnippet:
+                replaceFragment(new SnippetDonatingFragment());
                 break;
         }
     }
