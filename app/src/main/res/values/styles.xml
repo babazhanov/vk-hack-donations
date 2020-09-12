@@ -1,0 +1,16 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="VKButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button_vk_back</item>
+        <item name="android:textColor">@color/vk_white</item>
+        <item name="android:layout_height">44dp</item>
+    </style>
+
+</resources>

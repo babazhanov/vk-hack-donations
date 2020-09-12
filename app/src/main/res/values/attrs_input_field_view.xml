@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="InputFieldView">
+        <attr name="Label" format="string" />
+        <attr name="Placeholder" format="string" />
+        <attr name="Lines" format="integer" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="CustomButtonView">
+        <attr name="LeftDrawable" format="integer" />
+        <attr name="Caption" format="string" />
+        <attr name="Description" format="string" />
+    </declare-styleable>
+</resources>
